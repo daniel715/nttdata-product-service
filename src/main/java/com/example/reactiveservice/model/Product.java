@@ -1,5 +1,6 @@
 package com.example.reactiveservice.model;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -7,20 +8,28 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.sql.Date;
+import java.math.BigDecimal;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Document(collection = "transaction")
-public class Transaction {
+@Document(collection = "product")
+public class Product {
 
-    @Id
-    private String id;
-    private Date transactionDate;
-    private String transactionDescription;
-    private Long productId;
-    private Long clienteId;
+	@Id
+	private String id;
+
+    private String name;
+
+	private String type;
+
+	private String productDescription;
+
+	private BigDecimal availableCredit;
+
+	private BigDecimal creditLimitAmount;
+
+	private Long clienteId;
 
 }
