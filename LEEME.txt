@@ -1,3 +1,2 @@
-Como instalar LOMBOK en STS
-
-https://projectlombok.org/setup/eclipse
+Crear una base de datos en mongo llamada Products.
+Llenar  base de datos con archivo adjunto
