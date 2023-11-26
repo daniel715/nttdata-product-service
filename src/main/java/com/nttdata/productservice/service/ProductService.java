@@ -1,7 +1,7 @@
-package com.example.reactiveservice.service;
+package com.nttdata.productservice.service;
 
-import com.example.reactiveservice.repository.ProductMongoRepository;
-import com.example.reactiveservice.model.Product;
+import com.nttdata.productservice.repository.ProductMongoRepository;
+import com.nttdata.productservice.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;

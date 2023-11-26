@@ -1,6 +1,6 @@
-package com.example.reactiveservice.repository;
+package com.nttdata.productservice.repository;
 
-import com.example.reactiveservice.model.Product;
+import com.nttdata.productservice.model.Product;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
 import org.springframework.stereotype.Repository;

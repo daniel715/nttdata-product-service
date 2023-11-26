@@ -1,6 +1,6 @@
-package com.example.reactiveservice.service;
+package com.nttdata.productservice.service;
 
-import com.example.reactiveservice.model.Product;
+import com.nttdata.productservice.model.Product;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
