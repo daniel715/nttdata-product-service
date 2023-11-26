@@ -26,10 +26,12 @@ public class Product {
 
 	private String productDescription;
 
-	private BigDecimal availableCredit;
+	private BigDecimal balance;
 
 	private BigDecimal creditLimitAmount;
 
 	private Long clienteId;
+
+	private Boolean isPasivo;
 
 }
