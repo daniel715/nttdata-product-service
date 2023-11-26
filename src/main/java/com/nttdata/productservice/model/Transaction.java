@@ -18,8 +18,8 @@ public class Transaction {
 
     @Id
     private String id;
-    private Date transactionDate;
-    private String transactionDescription;
+    private Date transactionDate; //fecha transaction
+    private String transactionDescription; //descripcion de la transaction
     private Long productId;
     private Long clienteId;
 

@@ -20,9 +20,9 @@ public class Product {
 	@Id
 	private String id;
 
-    private String name;
+    private String name; // cuenta ahorro
 
-	private String type;
+	private String type; // cuentas bancarias o credito
 
 	private String productDescription;
 
@@ -32,6 +32,6 @@ public class Product {
 
 	private Long clienteId;
 
-	private Boolean isPasivo;
+	private Boolean isPasivo; // si es un productos pasivo o activo
 
 }
