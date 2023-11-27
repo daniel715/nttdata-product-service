@@ -1,14 +1,15 @@
-package com.nttdata.productservice.service;
+package com.nttdata.productservice.service.impl;
 
 import com.nttdata.productservice.repository.ProductMongoRepository;
 import com.nttdata.productservice.model.Product;
+import com.nttdata.productservice.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Service
-public class ProductService implements IProductService{
+public class ProductService implements IProductService {
 
     @Autowired
     private ProductMongoRepository productRepository;
@@ -16,7 +17,6 @@ public class ProductService implements IProductService{
     @Override
     public Flux<Product> list() {
         return this.productRepository.findAll();
-
     }
 
     @Override
