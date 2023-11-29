@@ -18,9 +18,11 @@ public class Transaction {
 
     @Id
     private String id;
+    private String originAccount;
+    private String destinationAccount;
     private String transactionDate; //fecha transaction
     private String transactionDescription; //descripcion de la transaction
-    private String productId;
-    private String clientId;
+    private String productId;// id del producto
+    private String clientId; // id del cliente que realizo las transacciones
 
 }

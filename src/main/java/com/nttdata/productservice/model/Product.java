@@ -24,14 +24,16 @@ public class Product {
 
 	private String type; // cuentas bancarias o credito
 
-	private String productDescription;
-
 	private BigDecimal balance;
+
+	private String currency;
 
 	private BigDecimal creditLimitAmount;
 
-	private Long clienteId;
-
 	private Boolean isPasivo; // si es un productos pasivo o activo
+
+	private String accountNumber; // en caso se trate de un producto pasivo
+
+	private String clientId;
 
 }
