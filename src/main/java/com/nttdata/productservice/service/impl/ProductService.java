@@ -39,7 +39,7 @@ public class ProductService implements IProductService {
     public Single<Product> updateProduct(Maybe<Product> product, String productId) {
         return productRepository.findById(productId)
                 .flatMap(p -> product)
-                .doOnSuccess(e -> e.setId(productId)).toSingle()
+                .doOnSuccess(e -> e.set_id(productId)).toSingle()
                 .flatMap(productRepository::save);
     }
 

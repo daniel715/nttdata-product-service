@@ -17,7 +17,7 @@ import java.sql.Date;
 public class Transaction {
 
     @Id
-    private String id;
+    private String _id;
     private String originAccount;
     private String destinationAccount;
     private String transactionDate; //fecha transaction

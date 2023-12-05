@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 public class Product {
 
 	@Id
-	private String id;
+	private String _id;
 
     private String name; // cuenta ahorro
 
