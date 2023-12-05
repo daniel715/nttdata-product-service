@@ -22,7 +22,7 @@ public class Product {
 
     private String name; // cuenta ahorro
 
-	private String type; // cuentas bancarias o credito
+//	private String type; // cuentas bancarias o credito
 
 	private BigDecimal balance;
 

@@ -1,9 +1,7 @@
 package com.nttdata.productservice.repository;
 
 import com.nttdata.productservice.model.Product;
-import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.data.repository.reactive.RxJava3CrudRepository;
 
-@Repository
-public interface ProductMongoRepository extends ReactiveMongoRepository<Product, String> {}
+public interface ProductMongoRepository extends RxJava3CrudRepository<Product, String> {}
