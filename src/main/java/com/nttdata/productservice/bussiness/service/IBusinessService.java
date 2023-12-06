@@ -1,10 +1,10 @@
 package com.nttdata.productservice.bussiness.service;
 
-import reactor.core.publisher.Mono;
+import io.reactivex.rxjava3.core.Single;
 
 import java.math.BigDecimal;
 
 public interface IBusinessService {
 
-    Mono<BigDecimal> getBalances();
+    Single<BigDecimal> getBalances();
 }

@@ -18,22 +18,17 @@ import java.math.BigDecimal;
 public class Product {
 
 	@Id
-	private String _id;
+	String _id;
 
-    private String name; // cuenta ahorro
-
-//	private String type; // cuentas bancarias o credito
-
-	private BigDecimal balance;
-
-	private String currency;
-
-	private BigDecimal creditLimitAmount;
+	private String name; // cuenta ahorro
 
 	private Boolean isPasivo; // si es un productos pasivo o activo
 
-	private String accountNumber; // en caso se trate de un producto pasivo
+	private Integer numMaxTransactions; // numero llimite de transacciones del producto
 
-	private String clientId;
+	private BigDecimal minAmountToOpen; // monto minimo para abrir cuenta
+
+	private BigDecimal creditLimitAmount; // limite de credito
+
 
 }
