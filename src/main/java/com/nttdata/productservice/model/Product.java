@@ -22,13 +22,12 @@ public class Product {
 
 	private String name; // cuenta ahorro
 
+	private BigDecimal creditLimitAmount; // limite de credito
+
 	private Boolean isPasivo; // si es un productos pasivo o activo
 
 	private Integer numMaxTransactions; // numero llimite de transacciones del producto
 
 	private BigDecimal minAmountToOpen; // monto minimo para abrir cuenta
-
-	private BigDecimal creditLimitAmount; // limite de credito
-
 
 }

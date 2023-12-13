@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/transaction")
+@RequestMapping("api/v1/transaction")
 public class TransactionRestController {
 
      @Autowired

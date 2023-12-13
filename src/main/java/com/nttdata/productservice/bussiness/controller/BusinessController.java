@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.math.BigDecimal;
 
 @RestController
-@RequestMapping("/bussiness")
+@RequestMapping("api/vi/bussiness")
 public class BusinessController {
 
 
