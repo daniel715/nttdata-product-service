@@ -2,6 +2,7 @@ package com.nttdata.productservice.bussiness.repository.impl;
 
 import com.nttdata.productservice.bussiness.repository.IBusinessRepository;
 import io.reactivex.rxjava3.core.Single;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
